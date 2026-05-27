@@ -67,7 +67,8 @@ print("Final Test MSE:", mean_squared_error(y_test, y_test_pred))
 print("Final Test MAE:", mean_absolute_error(y_test, y_test_pred))
 print("Final Test R2:", r2_score(y_test, y_test_pred))
 
-
+#die ergebnis in test und validation waren sehr ähnlich was ist sehr gut aber in vergleich zu dummyregressor 
+#sie waren so viel kleine was bedeutet weniger fehler !
 
 
 
@@ -84,7 +85,7 @@ sns.boxplot(x=df['budget'])
 
 plt.title("Budget Outliers")
 plt.xlim(0, 500000000)
-plt.show()
+#plt.show()
 # Titel
 #plt.title("Correlation Heatmap")
 # Anzeigen
